@@ -3,8 +3,18 @@
 /****************************************** */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.card-space:hover .card_ {
+    height: 260px !important;
+  }
+  .card-space1:hover .card_ {
+    height: 160px !important;
+  }
+	.deck .card_ {
+    height: 55px !important;
+  }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   #mainNav {
     background-color: #ffffff;
   }
@@ -102,8 +112,24 @@
   .footer-distributed .footer-company-name {
     font-size: 12px;
   }
+  .card-space:hover .card_ {
+    height: 270px !important;
+  }
+  .card-space1:hover .card_ {
+    height: 160px !important;
+  }
+  .deck .card_ {
+    height: 55px !important;
+  }
 }
 @media (max-width: 767px) {
+  .card-space:hover .card_ {
+    height: 70px !important;
+  }
+  .card-space1:hover .card_ {
+    height: 60px !important;
+	}
+  
   #mainNav {
     background-color: #ffffff;
   }
@@ -202,6 +228,12 @@
   }
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
+  .card-space:hover .card_ {
+    height: 115px;
+  }
+  .card-space1:hover .card_ {
+    height: 60px;
+  }
   #mainNav {
     background-color: #ffffff;
   }

@@ -164,17 +164,18 @@ h1 span:last-child {
 /* Desk Changes round */
 .deck {
   display: flex;
-  padding: 10px;
+  /* padding: 10px; */
   /* position: absolute; */
+  /* overflow-y: hidden; */
 }
 .card-space:hover .card_ {
   transform: rotateX(-180deg);
-  height: 220px;
+  color: #ffffff;
 }
 
 .card-space1:hover .card_ {
   transform: rotateX(-180deg);
-  height: 150px;
+  color: #ffffff;
 }
 
 .deck .card_ {
@@ -182,8 +183,8 @@ h1 span:last-child {
   text-align: center;
   justify-content: center;
   margin: 10px;
-  height: 60px;
-  width: 200px;
+  height: 40px;
+  /* width: 200px; */
   position: relative;
   transform-style: preserve-3d;
   transition: all 0.5s ease;
@@ -198,6 +199,7 @@ h1 span:last-child {
 .deck .face {
   border-radius: 10px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: lightgray;
   padding: 10px;
   position: absolute;
   height: 100%;

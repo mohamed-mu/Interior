@@ -410,12 +410,12 @@ a img.aligncenter {
 }
 
 .about_us div:before {
-    content: '\f00c';
-    font-family: 'FontAwesome';
-    font-size: 10px;
-    color: #5a4091;
-    margin-right: 10px;
-  }
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  font-size: 10px;
+  color: #5a4091;
+  margin-right: 10px;
+}
 
 .in-box {
   background: linear-gradient(to right, #029de6, #5bddc9);
